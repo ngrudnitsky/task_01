@@ -5,7 +5,6 @@ import java.io.*;
 public class FilePrinter implements Printer {
     private File file;
 
-
     public FilePrinter(String fileName) {
         this.file = new File(fileName);
     }

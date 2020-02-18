@@ -17,7 +17,7 @@ public class BirthdayProblem extends Problem {
     private int numberOfCoincidences;
     private Set<Integer> birthdays = new HashSet<>();
     private static Random random = new Random();
-    private final static int DAYS_IN_A_YEAR = 365;
+    private static final int DAYS_IN_A_YEAR = 365;
 
     public BirthdayProblem() {
         setName("Birthday problem.");

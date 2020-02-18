@@ -14,7 +14,7 @@ public class MontyHallProblem extends Problem {
     private int numberOfWinningsWhenChangeChoice = 0;
     private int numberOfWinningsWhenDoNotChangeChoice = 0;
     private static Random random = new Random();
-    private final static int DOORS = 3;
+    private static final int DOORS = 3;
 
     public void checkAlgorithm(Printer printer) {
         printer.print(gerIntroductionMessage());
